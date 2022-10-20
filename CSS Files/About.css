@@ -65,7 +65,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 25px 10%;
-    background-image: url("Temporary.png");
+    background-image: url("Images/Backround.png");
     box-shadow: 1px 2px 1px#16161b;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(22,22,27,0.5) 0%);
@@ -110,5 +110,5 @@ body {
     margin: 0;
     padding: 0;
     background-color: #24252a;
-    background-image: url("Backround.png");
+    background-image: url("Images/Backround.png");
 }
