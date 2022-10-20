@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!--Set Title:-->
+
+        <title>Aries | Create Your Account!</title>
+
+        <!--Set CSS:-->
+
+        <link rel="stylesheet" href="CSS Files/CreateAccount.css">
+
+        <!--Meta Data:-->
+
+        <meta charset="utf-8">
+        <meta name="author" content="Aries">
+        <meta name="description" content="Trying to revolutionise the world one Qubit at a time!">
+        <meta name="keywords" content="Aries , Nyx , Coding, Rockets , Quanta">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+
+        <!--Icon Webkit:-->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <!--SignUp Title:-->
+
+        <div class="TitleRegion">
+
+            Create your new account!
+
+        </div>
+
+        <div class="CreateAccount">
+
+            <form action="AccountValidation.php" method="post">
+
+                <!--Username Input:-->
+            
+                <p class="UsernameInput">
+                    <label for="Username">Username:</label>
+                    <input type="text" name="Username" placeholder="Your Username..." maxlength="15">
+                </p>
+
+                <!--Email Input:-->
+
+                <p class="EmailInput">
+                    <label for="Email">Email:</label>
+                    <input type="text" name="Email" placeholder="Your Email...">
+                </p>
+
+                <!--Password Input:-->
+
+                <p class="PasswordInput">
+                    <label for="Password">Password:</label>
+                    <input type="password" name="Password" placeholder="Your Password..." min="8" maxlength="30">
+                </p>
+
+                <!--Age Input:-->
+
+                <p class="AgeInput">
+                    <label for="Age">Age:</label>
+                    <input type="number" name="Age" placeholder="Your Age..." min="13">
+                </p>
+
+                <input type="submit" value="Create Account">
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
