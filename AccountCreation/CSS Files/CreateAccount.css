@@ -1,0 +1,90 @@
+/* Import the fonts for index.html: */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+.CreateAccount {
+    font-family: "Cairo" , sans-serif;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5%;
+    font-size: 24px;
+
+}
+
+.TitleRegion {
+    color: #edf0f1;
+    font-family: "Cairo" , sans-serif;
+    font-size: large;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 5%; 
+}
+   
+input[type=text], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=number], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type="submit"] {
+    width: 6.5%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+select {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style the index.html body: */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    background-image: url("Backround.png");
+}
