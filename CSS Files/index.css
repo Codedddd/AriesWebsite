@@ -6,7 +6,7 @@
 
 /* index.html title screen: */
 
-.HOME-TITLE {
+.index-title {
     color: #edf0f1;
     font-family: "Cairo" , sans-serif;
     font-size: large;
@@ -16,7 +16,7 @@
     margin-top: 5%; 
 }
 
-.HOME-TEXT , .HOME-TEXT-DISCORD-LINK{
+.index-text , .index-DISCORD-LINK{
     color: #edf0f1;
     font-family: "Lora" , sans-serif;
     font-size: large;
